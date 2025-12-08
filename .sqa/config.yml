@@ -15,48 +15,48 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.fair-tests git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-aquamarine-tang.sh
-        container: qc.acc_squeaky-lime-bandicoot
+        - /usr/bin/env sh .sqa/script.gummy-mustard-terrier.sh
+        container: qc.acc_clammy-ecru-yak
   QC.Doc:
     repos:
       github.com/cessda/cessda.fair-tests find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-rust-dodo.sh
-        container: qc.doc_dorky-cyan-frog
+        - /usr/bin/env sh .sqa/script.lousy-asparagus-sheepdog.sh
+        container: qc.doc_goopy-blue-stingray
       github.com/cessda/cessda.fair-tests git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-rust-wombat.sh
-        container: qc.doc_cozy-apricot-chipmunk
+        - /usr/bin/env sh .sqa/script.slimy-chartreuse-salamander.sh
+        container: qc.doc_lousy-cinnabar-harrier
       github.com/cessda/cessda.fair-tests markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-alizarin-spider.sh
-        container: qc.doc_sleepy-ruby-hedgehog
+        - /usr/bin/env sh .sqa/script.jumpy-razzmatazz-alligator.sh
+        container: qc.doc_skinny-brass-mastiff
   QC.Lic:
     repos:
       github.com/cessda/cessda.fair-tests licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-cinnabar-raccoon.sh
-        container: qc.lic_hilly-corn-frog
+        - /usr/bin/env sh .sqa/script.shabby-carmine-wasp.sh
+        container: qc.lic_squeaky-auburn-beetle
   QC.Met:
     repos:
       github.com/cessda/cessda.fair-tests cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-xanthic-gar.sh
-        container: qc.met_gloppy-beige-seahorse
+        - /usr/bin/env sh .sqa/script.clammy-amaranth-hare.sh
+        container: qc.met_seedy-brown-akbash
   QC.Sty:
     repos:
       github.com/cessda/cessda.fair-tests checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-aquamarine-cuscus.sh
-        container: qc.sty_stinky-lavender-deer
+        - /usr/bin/env sh .sqa/script.scanty-goldenrod-spitz.sh
+        container: qc.sty_droopy-bistre-civet
       github.com/cessda/cessda.fair-tests hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-bistre-goat.sh
-        container: qc.sty_scummy-myrtle-mongoose
+        - /usr/bin/env sh .sqa/script.freaky-brass-chihuahua.sh
+        container: qc.sty_flimsy-wisteria-bear
   QC.Ver:
     repos:
       github.com/cessda/cessda.fair-tests get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-azure-caracal.sh
-        container: qc.ver_lovely-peach-newt
+        - /usr/bin/env sh .sqa/script.snazzy-charcoal-blue.sh
+        container: qc.ver_paltry-platinum-mayfly
 timeout: 5400
