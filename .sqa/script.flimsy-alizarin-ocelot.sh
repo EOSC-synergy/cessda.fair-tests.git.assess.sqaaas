@@ -5,5 +5,5 @@
 
 (
 cd github.com/cessda/cessda.fair-tests &&
-    hadolint Dockerfile --failure-threshold error
+    hadolint Dockerfile server/Dockerfile api/Dockerfile --failure-threshold error
 )
